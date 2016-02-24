@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>华中科技大学外国语学院</title>
-<link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="http://139.129.50.63:5000/static/css/index.css" rel="stylesheet" type="text/css">
 </head >
 <body>
     <div class="bg" >
         <div class="head">
-            <img src="image/logo.gif"/>
+            <img src="../static/image/logo.gif"/>
             <div class="head_right">
                 <div class="headmenu">
                     <a href="" class="menu">设为首页</a>
@@ -23,7 +23,7 @@
                     <font color="#333">&nbsp;&nbsp;&nbsp;&nbsp;</font>
                 </div>
                 <div class="search">
-                    <img src="image/wenhao.png" style="margin-top:3px;float:left;"/>
+                    <img src="../static/image/wenhao.png" style="margin-top:3px;float:left;"/>
                     <form>
                         <input id="search" type="text"  style="float:left;border:0;margin-top:3px;width:200px;color:gray;" value="请输入搜索内容" onfocus="search_1();" onblur="search_2();">
                         <input type="button" class="button" value="搜索" >
@@ -48,8 +48,10 @@
         <div class="nav_2" id="nav_2" onmouseover="ff();" onmousemove=" "; onmouseleave="fff=false;f2();targeT.style.background='#5A5F69';document.getElementById('nav_2').innerHTML ='';">
         </div>
         <div class="imgcore">
-            <div id="img11"><img id="lb1" src="image/1.jpg"  /></div>
-            <div id="img12"><img id="lb" src="image/1.jpg"  /></div>
+            <div id="img1">
+            <div id="img11" style="display:block;width:100%;"><img id="lb1" src="../static/image/1.jpg"  /></div>
+            <div id="img12" style="display:none;width:100%;"><img id="lb" src="../static/image/2.jpg"  /></div>
+	    </div>
 
         </div>
         <div class="department">
@@ -65,7 +67,7 @@
             </ul>
         </div>
         <div class="windowOne">
-            <div style="height:266px;width: 350px;position: relative;top: 6px;left:6px;float: left;"> <img src="image/1 (6).jpg" style="height:100%;width: 100%;"></div>
+            <div style="height:266px;width: 350px;position: relative;top: 6px;left:6px;float: left;"> <img src="../static/image/1 (6).jpg" style="height:100%;width: 100%;"></div>
             <div class="textOne">
                 <div class="xyxw">
                     <div style="height: 35px;width:90px;line-height: 35px;font-size: 16px;color:red;border-bottom: 2px solid pink;">&nbsp;&nbsp;&nbsp;考试中心</div>
@@ -83,7 +85,7 @@
 
             </div>
         </div>
-        <img src="image/rad.jpg"  class="radd" />
+        <img src="../static/image/rad.jpg"  class="radd" />
         <div class="windowTwo">
             <div style="width:100%;height:35px;background-color: gray;margin:0 auto;color: white;line-height: 35px;text-align: center;border-bottom: 1px white solid;" id='kcjst' onclick="kcjs();" >课程建设</div>
             <div id='kcjs' >
@@ -157,7 +159,7 @@
             <div>▲2016-2-16&nbsp&nbsp&nbsp&nbsp&nbsp<a href=" " >[行政]暑假六月份开始</a></div>
             <div>▲2016-2-15&nbsp&nbsp&nbsp&nbsp&nbsp<a href=" " >[行政]寒假延长至五月份</a></div>
         </div>
-        <img src="image/tl.png" style="margin-left: 20px;margin-top: 20px;">
+        <img src="../static/image/tl.png" style="margin-left: 20px;margin-top: 20px;">
         <select>
             <option value ="volvo">常用链接</option>
             <option value ="saab">百度一下</option>
@@ -172,14 +174,14 @@
             <div class="zuo" onclick="goleft();">○</div>
             <div class="you" onclick="goright();">○</div>
             <div class="rwl">
-                <img id="tc" src="image/tc.jpg" style="top:30px;left:0px;" />
+                <img id="tc" src="../static/image/tc.jpg" style="top:30px;left:0px;" />
             </div>
         </div>
-        <img src="image/cp.png" style="margin:0 auto;" />
+        <img src="../static/image/cp.png" style="margin:0 auto;" />
 
 
     </div>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/lib/jquery-2.0.3.js"></script>
+    <script type="text/javascript" src="http://139.129.50.63:5000/static/js/index.js"></script>
+    <script type="text/javascript" src="http://139.129.50.63:5000/static/js/lib/jquery-2.0.3.js"></script>
 </body>
 </html>
